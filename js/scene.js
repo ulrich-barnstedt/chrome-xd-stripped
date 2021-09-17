@@ -1,6 +1,6 @@
 import Engine from "../engine/src/engine.js"
 
-const T = x => [ x, x, x ]
+const T = x => [ x, x, x ];
 
 export default async (engine) => {
 
@@ -9,7 +9,7 @@ export default async (engine) => {
     await engine.addEntity(new Engine.Entity({
         transform : {
             position : [ 0, 0, -300, 0, 0 ],
-            scale : [ 1, 1, 1, 1, 1 ].map(x => x * 28),
+            scale : [ 1, 1, 1, 1, 1 ].map(x => x * 35),
         },
         renderer : {
             renderEdges : true,

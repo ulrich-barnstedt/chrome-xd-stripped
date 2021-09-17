@@ -1,7 +1,10 @@
 import Engine from "../engine/src/engine.js";
 import SceneGen from "./scene.js"
 
-const display = new Engine.Displays.Canvas("main");
+const display = new Engine.Displays.Canvas("main", {
+    size: [ window.innerWidth, window.innerHeight ],
+    viewport: { height: 1250 }
+});
 const scene = [];
 const engine = new Engine(scene, [ display ]);
 
