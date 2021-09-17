@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome XD Stripped",
+  "description": "Stripped version of the original chrome-xd.",
+  "version": "2.1",
+  "short_name" : "X-Dimensional new tab",
+  "chrome_url_overrides" : {
+    "newtab" : "index.html"
+  },
+  "icons" : {
+    "128" : "icon128.png"
+  }
+}
