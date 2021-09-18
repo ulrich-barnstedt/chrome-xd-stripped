@@ -4,6 +4,9 @@ const T = x => [ x, x, x ];
 
 export default async (engine) => {
 
+
+    engine.rendererHandler.defaultVertexSize = 4;
+
     // --------------------- Center cube
 
     await engine.addEntity(new Engine.Entity({
